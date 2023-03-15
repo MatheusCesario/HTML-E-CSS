@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(62, 121, 3);
+    
+}
+body{
+    background-color: aqua
+}
+header h1, p  {
+    text-align: center;
+}
+
+a  {
+    text-decoration: none;
+  
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 15 0;
+}
+
+li{
+    text-decoration: none;
+}
+
+main{
+    text-align:center;
+   background-color: rgb(255, 255, 255);
+   margin: 0 100px;
+   width: 800px;
+}
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 2px;
+
+}
