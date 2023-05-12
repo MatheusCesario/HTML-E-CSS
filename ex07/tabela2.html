@@ -17,6 +17,7 @@
             border:1px solid black ;
             padding: 10px;
             text-align: center;
+            
         }
         thead, tfoot{
             background-color: darkgray;
@@ -25,16 +26,23 @@
         td.num{
             text-align: right;
         }
+        caption{
+            font-size: 1.5em;
+            background-color: darkgray;
+            padding: 10px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>tabela composta</h1>
     <table>
+        <caption>Tabela da População</caption>
         <thead>
             <tr>
                 <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style=" width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -177,7 +185,7 @@
         <tfoot>
             <tr>
                 <th>*</th>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>207.883.699</strong></td>
             </tr>
         </tfoot>
