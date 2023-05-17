@@ -12,6 +12,14 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px ;
+            background-color: rgb(36, 36, 36);
+
         }
         td,th{
             border:1px solid black ;
@@ -20,15 +28,19 @@
             
         }
         thead, tfoot{
-            background-color: darkgray;
+            background-color: rgb(36, 36, 36);
             color: white;
         }
         td.num{
             text-align: right;
         }
+        tbody tr:nth-child(even){
+            background-color: darkgrey;
+
+        }
         caption{
             font-size: 1.5em;
-            background-color: darkgray;
+            background-color: rgb(116, 116, 116);
             padding: 10px;
             font-weight: bold;
         }
