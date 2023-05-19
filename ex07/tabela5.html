@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 450px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+        }
+
+        col.NomeSexo-grupo{
+            background-color: blue;
+        }
+        col.idade-grupo{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="NomeSexo-grupo" span="2">
+            <col class="idade-grupo">
+            <col class="prof-grupo">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>matheus</td>
+            <td>M</td>
+            <td>21</td>
+            <td>programador</td>
+        </tr>
+        <tr>
+            <td>nathan</td>
+            <td>M</td>
+            <td>30</td>
+            <td>impresário</td>
+        </tr>
+        <tr>
+            <td>jose</td>
+            <td>M</td>
+            <td>22</td>
+            <td>impresário</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
