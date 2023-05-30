@@ -7,13 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cadastre-se aqui:</h1>
-    <form action="cadastro.php" method="get">
-     <p>
-        Nome:
-        <input type="text" name="nome" id="nome">
-        <input type="submit" value="Cadastrar">
-     </p>
-   </form>
+    <a href="#" onclick="clicou()">Clique em mim</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou() {
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p>Você clicou!'
+        }
+    </script>
+
+    
 </body>
 </html>
